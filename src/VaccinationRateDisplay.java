@@ -5,9 +5,9 @@ public class VaccinationRateDisplay implements Observer, DisplayElement {
 
 	private CovidStats covidStats;
 
-	public VaccinationRateDisplay(CovidStats weatherData) {
+	public VaccinationRateDisplay(CovidStats data) {
 		this.covidStats = covidStats;
-		weatherData.registerObserver(this);
+		data.registerObserver(this);
 	}
 
 	public void update(int cases, int deaths, int vaccinations) {
