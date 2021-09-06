@@ -1,1 +1,1 @@
-# Object Oriented Programming - Assignent 1 - ObserverPattern
+# Object Oriented Programming - Assignment 1 - ObserverPattern
